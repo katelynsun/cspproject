@@ -1,0 +1,89 @@
+body {
+    background-image: url("wallpaper_css_2.jpg");
+    background-color: rgb(174, 156, 255);
+}
+h1{
+	font-family: 'Bookman, URW Bookman L', serif;
+	font-size: 40px;
+    text-align: center;
+    color: rgb(32, 13, 54)
+}
+p {
+    font-family: ;'Bookman, URW Bookman L', serif;
+	font-size: 22px;
+    text-align: center;
+    text-shadow: 3px 3px 3px #333;
+    color: white
+}
+h2 {
+    font-family: 'Bookman, URW Bookman L', serif;
+	font-size: 25px;
+    text-align: center;
+    text-shadow: 3px 3px 3px #333;
+    color: white
+}
+.container {
+    display: flex;
+    width: 100%;
+    padding: 4% 2%;
+    box-sizing: border-box;
+    height: 100vh;
+  }
+  
+  .box {
+    flex: 1;
+    overflow: hidden;
+    transition: .5s;
+    margin: 0 2%;
+    box-shadow: 0 20px 30px rgba(0,0,0,.1);
+    line-height: 0;
+  }
+  
+  .box > img {
+    width: 200%;
+    height: calc(100% - 10vh);
+    object-fit: cover; 
+    transition: .5s;
+  }
+  
+  .box > span {
+    font-size: 3.8vh;
+    color: rgb(32, 13, 54);
+    text-shadow: 3px 3px 3px #333;
+    display: block;
+    text-align: center;
+    height: 10vh;
+    line-height: 2.6;
+  }
+  
+  .box:hover { flex: 1 1 50%; }
+  .box:hover > img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  button {
+    text-align: center;
+    margin-bottom: calc( 50vw - 175px );
+    margin-top: calc( 50vh - 30px );
+    width: 230px;
+    height: 60px;
+    border: none;
+    border-radius: 5px;
+    background: rgb(196, 144, 255);
+    font-family: 'Bookman, URW Bookman L', serif;
+    font-weight: bold;
+    font-size: 1.1em;
+    color: white;
+    text-shadow: 3px 3px 3px black;
+    box-shadow: 0 6px 6px rgb(32, 13, 54);
+    outline: none;
+  }
+  button:active {
+    /* set time duration to your needs */
+    animation: gradient 100ms;
+    background: rgb(196, 144, 255);
+    color: rgb(0, 0, 0);
+    text-shadow: 3px 3px 3px white;
+    box-shadow: 0 6px 6px rgb(207, 166, 255);
+  }
