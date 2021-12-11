@@ -24,12 +24,14 @@ h1 {
 	font-family: 'Bookman, URW Bookman L', serif;
 	font-size: 80px;
 	margin-bottom: 30px;
+	color:rgb(60, 15, 80)
 }
 
 h2, p {
 	font-family: 'Open Sans', sans-serif;
-    font-size: 20px;
+    font-size: 25px;
 	margin-bottom: 30px;
+	color: rgb(39, 4, 54);
 }
 
 button {
@@ -128,7 +130,7 @@ height:100%;
 }
 .footer h3{
 	font-family: Bookman, URW Bookman L, serif;
-	font-size: 20px;
+	font-size: 25px;
 	font-weight: 100;
 	margin-top:60px;
 	margin-left:40px;
