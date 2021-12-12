@@ -15,7 +15,7 @@ header .overlay{
 	height: 100%;
 	padding: 50px;
 	color: white;
-	text-shadow: 3px 3px 3px #333;
+	text-shadow: 3px 3px 3px rgb(170, 152, 180);
   background-image: url("music_wallpaper_frontpage.jpg");
 	
 }
@@ -24,14 +24,15 @@ h1 {
 	font-family: 'Bookman, URW Bookman L', serif;
 	font-size: 80px;
 	margin-bottom: 30px;
-	color:rgb(60, 15, 80)
+	color:rgb(46, 11, 63)
 }
 
 h2, p {
 	font-family: 'Open Sans', sans-serif;
     font-size: 25px;
 	margin-bottom: 30px;
-	color: rgb(39, 4, 54);
+	color: rgb(46, 11, 63);
+	text-shadow: white;
 }
 
 button {
