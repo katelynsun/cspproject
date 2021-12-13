@@ -22,8 +22,11 @@ body, html {
   font-weight: 400;
   line-height: 1.1;
   font-size: 16px;
-  background-color: rgb(174, 156, 255);
   text-justify:  ;
+}
+
+#grad, html {
+  background-image: linear-gradient(to right,rgb(174, 156, 255),#4721b0);
 }
 
 .siteTitle {
@@ -64,8 +67,8 @@ footer {
 }
 
 .inner {
-  height: 50%;
-  width: 500px;
+  height: 58%;
+  width: 600px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -89,7 +92,7 @@ font-size: 3.8vh;
   text-align: center;
   font-weight: 700;
   position: relative;
-  margin: 0 0 20px 0;
+  margin: 0 0 10px 0;
   
   @include media {
     font-size: 30px;
@@ -97,9 +100,9 @@ font-size: 3.8vh;
 }
 
 .subtitle {
-  color: #b0215e;
+  color: #4721b0;
   text-align: center;
-font-size: 2.2vh
+font-size: 2.4vh
 }
 
 .card2 {
