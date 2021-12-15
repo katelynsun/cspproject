@@ -1,0 +1,9 @@
+.topnav a {
+    background-color: mediumpurple;
+    overflow: hidden;
+}
+.topnav a {
+    float: left;
+    color: mistyrose;
+    text-align: center;
+}
