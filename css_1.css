@@ -21,8 +21,9 @@ header .overlay{
 }
 
 h1 {
-	font-family: 'Bookman, URW Bookman L', serif;
+	font-family: 'Courier New', Courier, monospace;
 	font-size: 80px;
+	font-weight: 550;
 	margin-bottom: 30px;
 	color:white
 }
