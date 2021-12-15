@@ -1,9 +1,23 @@
-.topnav a {
-    background-color: mediumpurple;
-    overflow: hidden;
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: plum;
+    color: #4C5762;
 }
-.topnav a {
-    float: left;
-    color: mistyrose;
-    text-align: center;
+
+.nav-links a {
+    color: #4C5762;
 }
+
+.logo {
+    font-size: 32px;
+}
+
+.menu {
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+}
+
