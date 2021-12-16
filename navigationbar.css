@@ -1,3 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+body {
+    font-family: cursive;
+}
+body {
+    font-family: cursive;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
 .navbar {
     display: flex;
     align-items: center;
@@ -6,39 +23,26 @@
     background-color: plum;
     color: #4C5762;
 }
-
 .nav-links a {
     color: #4C5762;
 }
-
 .logo {
     font-size: 32px;
 }
-
 .menu {
     display: flex;
     gap: 1em;
     font-size: 18px;
 }
-
 .menu li:hover {
     background-color: wheat;
     border-radius: 5px;
     transition: 0.3s ease;
 }
-
 .menu li {
     padding: 5px 14px;
 }
-
 .services {
     position: relative;
 }
 
-.dropdown {
-    background-color: wheat;
-    padding: 1em 0;
-    position: absolute;
-    display: none;
-    
-}
