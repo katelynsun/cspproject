@@ -175,7 +175,7 @@ footer {
 
 .bottom {
   border-radius: 26px;
-  background: #601463;
+  background: #4721b0;
   height: 100%;
   overflow: hidden;
   position: absolute;
@@ -183,7 +183,7 @@ footer {
 }
 
 .cover {
-  background-color: #3743a4;
+  background-color: rgb(174, 156, 255);
   border-radius: 26px;
   height: 100%;
   position: absolute;
@@ -418,6 +418,7 @@ footer {
   color: white;
   font-size: 20px;
   position: absolute;
+  text-shadow: 3px 3px 3px #4721b0;
 }
 .text-dark {
   color: #fff;
