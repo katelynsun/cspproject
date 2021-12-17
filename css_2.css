@@ -3,24 +3,24 @@ body {
     background-color: #d2c7e5;
 }
 h1{
-	font-family: 'Bookman, URW Bookman L', serif;
+	font-family: 'Courier New', monospace;
 	font-size: 40px;
     text-align: center;
     color: white;
-    text-shadow: 3px 3px 3px #4721b0;
+    text-shadow: 3px 3px 3px #2e2837;
 }
 p {
-    font-family: ;'Bookman, URW Bookman L', serif;
+    font-family: 'Courier New', monospace;
 	font-size: 22px;
     text-align: center;
-    text-shadow: 3px 3px 3px #4721b0;
+    text-shadow: 3px 3px 3px #2e2837;
     color: white
 }
 h2 {
-    font-family: 'Bookman, URW Bookman L', serif;
+    font-family: 'Courier New', monospace;
 	font-size: 25px;
     text-align: center;
-    text-shadow: 3px 3px 3px #4721b0;
+    text-shadow: 3px 3px 3px#2e2837;
     color: white
 }
 .container {
@@ -36,7 +36,7 @@ h2 {
     overflow: hidden;
     transition: .5s;
     margin: 0 2%;
-    box-shadow: 0 20px 30px rgba(0,0,0,.1);
+    box-shadow: 0 20px 30px #2e2837;
     line-height: 0;
   }
   
@@ -50,7 +50,7 @@ h2 {
   .box > span {
     font-size: 3.8vh;
     color: #4721b0;
-    text-shadow: 3px 3px 3px #333;
+    text-shadow: 3px 3px 3px#2e2837;
     display: block;
     text-align: center;
     height: 10vh;
@@ -72,19 +72,19 @@ h2 {
     border: none;
     border-radius: 5px;
     background: rgb(196, 144, 255);
-    font-family: 'Bookman, URW Bookman L', serif;
+    font-family: 'Courier New', monospace;
     font-weight: bold;
     font-size: 1.1em;
     color: white;
-    text-shadow: 3px 3px 3px black;
-    box-shadow: 0 6px 6px #4721b0;
+    text-shadow: 3px 3px 3px #2e2837;
+    box-shadow: 0 6px 6px #2e2837;
     outline: none;
   }
   button:active {
     /* set time duration to your needs */
     animation: gradient 100ms;
     background: rgb(196, 144, 255);
-    color: rgb(0, 0, 0);
+    color:#2e2837;
     text-shadow: 3px 3px 3px white;
-    box-shadow: 0 6px 6px rgb(207, 166, 255);
+    box-shadow: 0 6px 6px #2e2837;
   }
