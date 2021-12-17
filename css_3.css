@@ -6,6 +6,7 @@
 h1{
     font-family: 'Courier New', monospace;
   font-size: 40px;
+  margin-top: 20px;
     font-weight: bold;
     text-align: center;
     color: white;
@@ -15,6 +16,7 @@ p{
     font-family:'Courier New', monospace;
 	font-size: 20px;
     text-align: center;
+    margin-top: 20px;
     text-shadow: 3px 3px 3px #333;
     color: white
 }
@@ -59,6 +61,7 @@ footer {
   text-decoration: none;
   border: 2.5px solid #2e2837;
   margin-bottom: 50px;
+  margin-top: 20px;
   background-image: url("rockartist.jpg");
     background-size: cover;
   
@@ -95,6 +98,7 @@ font-size: 3.8vh;
   font-weight: 700;
   position: relative;
   margin: 0 0 10px 0;
+  margin-bottom: 20px;
   
   @include media {
     font-size: 30px;
