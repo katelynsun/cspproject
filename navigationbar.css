@@ -4,10 +4,10 @@
     box-sizing:border-box;
 }
 body {
-    font-family: cursive;
+    font-family: 'Courier New', Courier, monospace;
 }
 body {
-    font-family: cursive;
+    font-family: 'Courier New', Courier, monospace;
 }
 a {
     text-decoration: none;
@@ -20,7 +20,7 @@ li {
     align-items: center;
     justify-content: space-between;
     padding: 20px;
-    background-color: plum;
+    background-color: #d2c7e5;
     color: #4C5762;
 }
 .nav-links a {
