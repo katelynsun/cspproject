@@ -4,11 +4,12 @@
     }
 }
 h1{
-    font-family: 'Bookman, URW Bookman L', serif;
-	font-size: 40px;
+    font-family: 'Courier New', monospace;
+  font-size: 40px;
+    font-weight: bold;
     text-align: center;
     color: white;
-    text-shadow: 3px 3px 3px #4721b0;
+    text-shadow: 3px 3px 3px #2e2837;
 }
 p{
     font-family:'Bookman, URW Bookman L', serif;
@@ -26,7 +27,7 @@ body, html {
 }
 
 #grad, html {
-  background-image: linear-gradient(to right,rgb(174, 156, 255),#4721b0);
+  background-image: linear-gradient(to right,#d2c7e5, #dae5c7);
 }
 
 .siteTitle {
@@ -73,7 +74,8 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center; 
-  background: rgb(174, 156, 255);
+  background:#2e2837;
+  opacity: 0.85;
   border-radius: 25px;
   box-sizing: border-box;
   padding: 40px;
@@ -85,10 +87,10 @@ footer {
 }
 
 .title {
-  font-family: 'Bookman, URW Bookman L', serif;
+  font-family: 'Courier New', monospace;
 font-size: 3.8vh;
   top: +10px;
-  color: rgb(32, 13, 54);  
+  color:#dae5c7;  
   text-align: center;
   font-weight: 700;
   position: relative;
@@ -100,7 +102,8 @@ font-size: 3.8vh;
 }
 
 .subtitle {
-  color: #4721b0;
+  font-family: 'Courier New', serif;
+  color:#d2c7e5;
   text-align: center;
 font-size: 2.4vh
 }
