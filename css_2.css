@@ -6,22 +6,22 @@ h1{
 	font-family: 'Courier New', monospace;
 	font-size: 40px;
     text-align: center;
+    text-shadow: -1px 0 #2e2837, 0 1px #2e2837, 1px 0 #2e2837, 0 -1px #2e2837;
     color: white;
-    text-shadow: 3px 3px 3px #2e2837;
 }
 p {
     font-family: 'Courier New', monospace;
-	font-size: 22px;
+  font-size: 28px;
+    font-weight: lighter;
     text-align: center;
-    text-shadow: 3px 3px 3px #2e2837;
-    color: white
+    color: #2e2837;
 }
 h2 {
     font-family: 'Courier New', monospace;
 	font-size: 25px;
     text-align: center;
-    text-shadow: 3px 3px 3px#2e2837;
-    color: white
+    font-weight : lighter;
+    color: #2e2837;
 }
 .container {
     display: flex;
@@ -49,8 +49,7 @@ h2 {
   
   .box > span {
     font-size: 3.8vh;
-    color: #4721b0;
-    text-shadow: 3px 3px 3px#2e2837;
+    color: #2e2837;
     display: block;
     text-align: center;
     height: 10vh;
@@ -68,23 +67,20 @@ h2 {
     margin-bottom: calc( 50vw - 175px );
     margin-top: calc( 50vh - 30px );
     width: 230px;
-    height: 60px;
+    height: 75px;
     border: none;
     border-radius: 5px;
-    background: rgb(196, 144, 255);
+    background: #2e2837;
+    opacity: 0.6;
     font-family: 'Courier New', monospace;
-    font-weight: bold;
+    font-weight: lighter;
     font-size: 1.1em;
     color: white;
-    text-shadow: 3px 3px 3px #2e2837;
-    box-shadow: 0 6px 6px #2e2837;
     outline: none;
   }
   button:active {
     /* set time duration to your needs */
     animation: gradient 100ms;
-    background: rgb(196, 144, 255);
+    background: #dae5c7;
     color:#2e2837;
-    text-shadow: 3px 3px 3px white;
-    box-shadow: 0 6px 6px #2e2837;
   }

@@ -20,7 +20,7 @@
 }
 
 body {
-  background-color: rgb(174, 156, 255);
+  background-color:#d2c7e5;
 }
 
 section {
@@ -63,7 +63,7 @@ details > div > p {
 }
 
 details[open] > summary {
-   color: #4721b0;
+   color: #2e2837;
 }
 
 @media (min-width: 768px) {
