@@ -147,8 +147,8 @@ height:100%;
 }
 .footer h3{
 	font-family: 'Courier New', monospace;
+	color: black;
 	font-size: 25px;
-	font-weight: 100;
 	margin-top:60px;
 	margin-left:40px;
 }
