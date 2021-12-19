@@ -14,48 +14,64 @@ header .overlay{
 	width: 100%;
 	height: 100%;
 	padding: 75px;
-	color: white;
-	text-shadow: 3px 3px 3px #4721b0;
+	color: #d2c7e5;
   background-image: url("music_wallpaper_frontpage.jpg");
 	
 }
 
 h1 {
-	font-family: 'Gill Sans', sans-serif;
+	font-family: 'Courier New', monospace;
 	font-size: 60px;
 	margin-bottom: 30px;
+	text-shadow: -1px 0 #2e2837, 0 1px #2e2837, 1px 0 #2e2837, 0 -1px #2e2837;
 	color:white
 }
 
-h2, p {
-	font-family: 'Verdana', sans-serif;
+h2{
+	font-family: 'Courier New', monospace;
     font-size: 22px;
 	margin-bottom: 30px;
-	color: white;
-	text-shadow: #4721b0;
+	color: #2e2837;
 }
-
+p{
+	font-family: 'Courier New', monospace;
+    font-size: 22px;
+	margin-bottom: 30px;
+	color: #2e2837;
+	
+}
 button {
 	border: none;
 	outline: none;
 	padding: 10px 20px;
 	border-radius: 50px;
-	color: #333;
+	width: 450px;
+	height: 85px;
+	color: #2e2837;
 	background: #fff;
+	opacity: 0.8;
 	margin-bottom: 50px;
-	box-shadow: 0 3px 20px 0 #0000003b;
+	box-shadow: -1px 0 #2e2837, 0 1px #2e2837, 1px 0 #2e2837, 0 -1px #2e2837;
+	font-family: 'Courier New', Courier, monospace;
+	font-weight: bold;
+	font-size: medium;
 }
 button:hover{
 	cursor: pointer;
 }
+button:active {
+    /* set time duration to your needs */
+    animation: gradient 100ms;
+    background: #dae5c7;
+	color:#2e2837;
+}
 
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400);
 body{
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Courier New', monospace;
   color:white;
   font-weight:300;
-  background-color: white;
-  text-shadow: 3px 3px 3px #333;
+  background-color: #d2c7e5;
 }
 section{
   text-align:center;
@@ -114,7 +130,7 @@ height:100%;
   position:relative;
   top:0;
   left:0;
-	background: rgb(174, 156, 255) ;
+	background:#d2c7e5;
 }
 .footer #cont{
   position:relative;
@@ -130,7 +146,7 @@ height:100%;
   text-align:center;
 }
 .footer h3{
-	font-family: Bookman, URW Bookman L, serif;
+	font-family: 'Courier New', monospace;
 	font-size: 25px;
 	font-weight: 100;
 	margin-top:60px;

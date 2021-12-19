@@ -66,8 +66,9 @@ h2 {
     text-align: center;
     margin-bottom: calc( 50vw - 175px );
     margin-top: calc( 50vh - 30px );
-    width: 230px;
-    height: 75px;
+    padding: 20px 30px;
+    width: 270px;
+    height: 100px;
     border: none;
     border-radius: 5px;
     background: #2e2837;

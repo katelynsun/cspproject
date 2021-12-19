@@ -18,11 +18,11 @@ a {
     align-items: center;
     justify-content: space-between;
     padding: 20px;
-    background-color: #d2c7e5;
-    color: #4C5762;
+    background-color: rgb(46, 40, 55, 0.8);
+    color: #d2c7e5;
 }
 .nav-links a {
-    color: #4C5762;
+    color: #d2c7e5;
 }
 .logo {
     font-size: 32px;
