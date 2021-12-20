@@ -1,2 +1,2 @@
 # cspproject
-csp project P6, tanya kalale, sruti dondapati, tanvee priyadarshan, katelyn sun 
+CSP Project P6: Tanya Kalale, Sruti Dondapati, Tanvee Priyadarshan, Katelyn Sun 
