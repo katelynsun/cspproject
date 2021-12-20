@@ -37,7 +37,9 @@ h2{
 }
 p{
 	font-family: 'Courier New', monospace;
-    font-size: 22px;
+    font-size: 25px;
+	font-weight: 600;
+	background-color: #d2c7e5;
 	margin-bottom: 30px;
 	color: #2e2837;
 	
