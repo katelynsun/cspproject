@@ -1,3 +1,2 @@
 # cspproject
-CSP Project P6: Tanya Kalale, Sruti Dondapati, Tanvee Priyadarshan, Katelyn sun 
-How many hours do you spend on Sppotify, iTunes, YouTube, or any music app, scrolling through the countless songs and albums there are? Its almost endless right? Music helps people write stories and share them with the world amongst them, in a unique and beautiful way. Music connects people with an irresistible pull and brings importance to various cultures, ethnicities, and ideas. This website will take you through the journey of finding your love for music, the large variety of genres it has, famous artists and the very significance of "music". Click the buttons to unlock a new story.
+CSP Project P6: Tanya Kalale, Sruti Dondapati, Tanvee Priyadarshan, Katelyn Sun 
