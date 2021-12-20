@@ -30,3 +30,27 @@ id=$posted");
 		echo $n-1;
 		exit();
 	}
+
+	$posts = mysqli_query($con, "SELECT * FROM posts");
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta chatset="UTF=8">
+		<title>Like and unlike system</title>
+		<link rel="stylesheet" href="/"/>
+		<link rel="stylesheet" href="/"/>
+	</head>
+<body>
+
+		<?php while ($row = mysqli_fetch_array($posts)) { ?>
+		
+			<div class="post">
+				<?php echo $row['text']; ?>
+				<div style="padding: 2px; margin-top: 5px;">
+				<?php
+					$result = mysqli_query($con, "SELECT *
+FROM likes WHERE userid=1 AND postid=".$row['id']."");
+					if (mysqli_num_rows($results) == 1):
+?>
