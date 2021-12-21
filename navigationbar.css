@@ -18,7 +18,7 @@ a {
     align-items: center;
     justify-content: space-between;
     padding: 20px;
-    background-color: rgb(46, 40, 55, 0.8);
+    background-color: rgba(46, 40, 55, 0.424);
     color: #d2c7e5;
 }
 .nav-links a {
