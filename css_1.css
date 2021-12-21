@@ -39,7 +39,6 @@ p{
 	font-family: 'Courier New', monospace;
     font-size: 25px;
 	font-weight: 600;
-	opacity: 0.8;
 	text-shadow: 0 0 100px #d2c7e5;
 	margin-bottom: 30px;
 	color: #2e2837;
@@ -85,7 +84,7 @@ section{
 	width:35px;
 	height:35px;
 	border: #d2c7e5 12px solid;
-	opacity: 0.4;
+	opacity: 0.9;
 	border-radius:35px;
 	margin:0 auto;
 	position:relative;
@@ -137,7 +136,7 @@ height:100%;
   top:0;
   left:0;
 	background:#d2c7e5;
-	opacity: 0.4;
+	opacity: 0.9;
 }
 .footer #cont{
   position:relative;
