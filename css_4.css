@@ -19,8 +19,8 @@
   box-sizing: border-box;
 }
 
-body {
-  background-color:#d2c7e5;
+#grad, html {
+  background-image: linear-gradient(to right,#d2c7e5, #dae5c7);
 }
 
 section {
