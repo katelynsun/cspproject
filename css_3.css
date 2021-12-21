@@ -4,17 +4,16 @@
     }
 }
 h1{
-	font-family: 'Courier New', monospace;
-	font-size: 40px;
+	font-family: 'Oooh Baby', cursive;
+	font-size: 60px;
     text-align: center;
     margin-top: 30px;
     color:#2e2837;
 }
 p {
     font-family: 'Courier New', monospace;
-  font-size: 26px;
+  font-size: 22px;
     margin-top: 20px;
-    font-weight: lighter;
     text-align: center;
     color: #2e2837;
 }
@@ -69,8 +68,8 @@ footer {
 }
 
 .inner {
-  height: 58%;
-  width: 700px;
+  height: 59%;
+  width: 900px;
   display: flex;
   flex-direction: column;
   justify-content: center;
