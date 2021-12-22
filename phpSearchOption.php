@@ -20,7 +20,7 @@ $result = $conn->query($sql);
 
 if ($result->num_rows > 0){
 while($row = $result->fetch_assoc() ){
-	echo $row["rock"]."  ".$row["classical"]."  ".$row["pop"]." ".$row["country"]." ".$row["jazz"]."<br>";
+	echo $row["artist"]."  ".$row["song"]." <br>";
 }
 } else {
 	echo "0 records";

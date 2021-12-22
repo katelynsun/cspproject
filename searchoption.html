@@ -1,15 +1,25 @@
 <html>
 <body>
+    <style>
+        form {
+          font-family: 'Courier New', Courier, monospace;
+        }
+        form {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          padding: 20px;
+          background-color: #2e2837;
+          color: #d2c7e5;
+        }
+      </style>
 
 <form action="phpSearchOption.php" method="post">
-Search <input type="text" name="search" style="text-align: center;"><br>
+Search Genres (Rock, Classical, Pop, Country, Jazz)<input type="text" name="search" style="text-align: center;"><br>
 
-Genres: <select name="column">
-	<option value="rock">Rock</option>
-	<option value="classical">Classical</option>
-	<option value="pop">Pop</option>
-    <option value="country">Country</option>
-	<option value="jazz">Jazz</option>
+Select: <select name="column">
+	<option value="artist">Artist</option>
+	<option value="song">Song</option>
 	</select><br>
 <input type ="submit">
 </form>
