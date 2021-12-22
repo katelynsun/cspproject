@@ -18,8 +18,10 @@ a {
     align-items: center;
     justify-content: space-between;
     padding: 20px;
-    background-color: rgba(46, 40, 55, 0.424);
+    background-color: rgb(46, 40, 55, 0.4);
     color: #d2c7e5;
+    box-shadow: 0 10px 10px #2e283777;
+    opacity: 90%;
 }
 .nav-links a {
     color: #d2c7e5;
@@ -33,9 +35,11 @@ a {
     font-size: 18px;
 }
 .menu li:hover {
-    background-color: wheat;
+    background-color: #dae5c7 ;
+    opacity: 0.4;
     border-radius: 5px;
     transition: 0.3s ease;
+    color: #;
 }
 .menu li {
     padding: 5px 14px;
