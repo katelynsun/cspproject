@@ -6,6 +6,6 @@
 <html>
 <head>
 	<title></title>
-	<link rel='stylesheet" type="text/css" href="search.css">
+	<link rel="stylesheet" type="text/css" href="search.css">
 </head>
 <body>
