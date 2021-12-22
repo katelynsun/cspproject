@@ -19,11 +19,13 @@
                 echo "<a href='genre.php?title=".$row['genre']."&artist=".$row['artist']><div class ='article-box'>
                     <h3>".$row['genre']."</h3>
                     <p>".$row['artist']."</p>
-                </div></a>";
             }
         } else {
-            echo "There are no results matching your search.";
+            echo "There are no results matching your search!";
         }
     }
 ?>
 </div>
+
+</body>
+</head>
