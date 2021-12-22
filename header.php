@@ -5,7 +5,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
-	<link rel="stylesheet" type="text/css" href="search.css">
+		<title>Search</title>
+		<link rel="stylesheet" href="search.css" />
 </head>
 <body>
