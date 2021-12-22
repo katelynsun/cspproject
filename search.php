@@ -2,7 +2,7 @@
 	include 'header.php';
 ?>
 
-<h1>Search page/h1>
+<h1>Search page<h1>
 
 <div class="article=container">
 <?php
@@ -16,7 +16,7 @@
 
     if ($queryResult > 0) {
             while ($row = mysqli_fetch_assoc($result)) {
-                echo "<a href='genre.php?'><div class ='article-box'>
+                echo "<a href='genre.php?title=".$row[genre]."&artist=".$row['artist']><div class ='article-box'>
                     <h3>".$row[genre]."</h3>
                     <p>".$row[artist]."</p>
                 </div></a>";
