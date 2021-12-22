@@ -16,7 +16,7 @@ header .overlay{
     height: 800px;
     padding: 1px;
     color: rgb(210, 199, 229);
-    background-image: url("original.png");
+    background-image: url("music_wallpaper_frontpage.jpg");
 	background-repeat: no-repeat;
 	background-size:cover;
 	backdrop-filter: blur(4px);
@@ -24,28 +24,26 @@ header .overlay{
 }
 
 h1 {
-	font-family: 'Courier New', monospace;
+	font-family: 'Oooh Baby', cursive;
 	font-size: 60px;
 	margin-bottom: 50px;
 	margin-top: 50px;
-	color:#d2c7e5;
+	color:#2e2837;
 }
 
 h2{
 	font-family: 'Courier New', monospace;
     font-size: 22px;
 	margin-bottom: 30px;
-	color: #d2c7e5;
+	color: #2e2837;
 }
 p{
-	font-family: 'Courier New', monospace;
+	font-family: 'Antonio', sans-serif;
     font-size: 25px;
-	font-weight: 600;
 	padding: 50px 50px;
-	opacity: 0.8;
 	text-shadow: 0 0 100px #2e2837;
 	margin-bottom: 30px;
-	color: #d2c7e5;
+	color: #2e2837;
 	font-weight: normal;
 }
 button {
@@ -78,8 +76,7 @@ button:active {
 body{
   font-family: 'Courier New', monospace;
   color:white;
-  font-weight:300;
-  background-color: #696472;
+  background-image: linear-gradient(to right,#d2c7e5, #dae5c7);
 }
 section{
   text-align:center;
@@ -88,7 +85,7 @@ section{
 	width:35px;
 	height:35px;
 	border: #d2c7e5 12px solid;
-	opacity: 0.4;
+	opacity: 0.9;
 	border-radius:35px;
 	margin:0 auto;
 	position:relative;
@@ -140,7 +137,7 @@ height:100%;
   top:0;
   left:0;
 	background:#fff;
-	opacity: 0.4;
+	opacity: 0.9;
 }
 .footer #cont{
   position:relative;
