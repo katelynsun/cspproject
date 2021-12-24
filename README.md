@@ -1,2 +1,3 @@
 # cspproject
 CSP Project P6: Tanya Kalale, Sruti Dondapati, Tanvee Priyadarshan, Katelyn Sun 
+For our project we had trouble making our PHP work, even though our code was was already written out. We had discussed with Mr.Millard about this issue on the finals day and he had told us that it was alright if the code was not working, as long as had tried our best. Initially our idea for the PHP was to have the users view the pages about music and based off of what they learned from those pages, we would have them search one of the genres and pick if they want an artist or song from that genre.
